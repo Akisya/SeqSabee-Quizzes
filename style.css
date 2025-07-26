@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff8dc;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff3b0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.title {
+  font-size: 24px;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fbc02d;
+}
+.subtitle-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Subtitle {
+  font-size: 24px;
+  text-shadow: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#fbc02d;
+  color: #333;
+  text-align: right;
+}
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+.card {
+  background: #fff3b0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.02);
+  background: #ffeb66;
+}
+.option-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: #ffec99;
+  transition: background 0.3s;
+}
+.correct { background: #c8f7c5 !important; }
+.incorrect { background: #f7c5c5 !important; }
+.disabled { pointer-events: none; opacity: 0.7; }
+#quiz-box { display: none; }
+.back-btn {
+  background: #ffd54f;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#explanation-box {
+  background: #fff8dc;
+  border-left: 4px solid #fbc02d;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: left;
+  display: none;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+

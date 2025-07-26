@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeqSabee - Series & Sequences Mastery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <img src="SeqSabee.png" alt="Quiz Logo" class="logo">
+    <h1 class="title">SeqSabee</h1>
+    <div class="subtitle-container">
+  <div class="Subtitle">Be a series and sequence savvy with SeqSabee!</div>
+</div>
+
+  </div>
+  <body>
+
+  <div class="container" id="home">
+    <h2>Sequence & Series Quiz</h2>
+    <p>Select your mastery level:</p>
+    <div class="card" onclick="startQuiz('beginner')">Beginner</div>
+    <div class="card" onclick="startQuiz('intermediate')">Intermediate</div>
+    <div class="card" onclick="startQuiz('advanced')">Advanced</div>
+    <div class="card" onclick="startQuiz('partial')">Partial Mastery</div>
+    <div class="card" onclick="startQuiz('mastery')">Mastery</div>
+  </div>
+
+  <div class="container" id="quiz-box">
+    <h2 id="question">Question</h2>
+    <div id="options"></div>
+    <p id="feedback"></p>
+    <div id="explanation-box" class="hidden"></div>
+    <p id="progress"></p>
+    <button class="back-btn" onclick="goHome()">Back to Home</button>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
